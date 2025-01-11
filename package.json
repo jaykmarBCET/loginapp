@@ -1,0 +1,19 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run dev --prefix server"
+  },
+  "keywords": [
+    "login",
+    "authentication"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A login page project with a server and frontend",
+  "dependencies": {
+    "login-page": "file:"
+  }
+}
